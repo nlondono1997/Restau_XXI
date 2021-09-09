@@ -1,0 +1,19 @@
+﻿<mah:MetroWindow x:Name="mtrwPantalla_Principal" x:Class="Diseno.Pantalla_Principal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:Diseno"
+        mc:Ignorable="d"
+    Title="Pantalla_Principal" Height="613" Width="1138.5" WindowStartupLocation="CenterScreen" >
+    <Grid Background="#FFA69770">
+        <DockPanel HorizontalAlignment="Left" Background="#FFB88383" Width="252">
+            <Label x:Name="LblNombre" Content="Nombre" VerticalAlignment="Top" Width="252" HorizontalAlignment="Center" HorizontalContentAlignment="Center" DockPanel.Dock="Top" VerticalContentAlignment="Center"/>
+            <Label x:Name="LblRol" Content="Rol" VerticalAlignment="Top" Width="252" HorizontalAlignment="Center" HorizontalContentAlignment="Center" DockPanel.Dock="Top" VerticalContentAlignment="Center"/>
+            <Label x:Name="LblCorreo" Content="Correo" VerticalAlignment="Top" Width="242" HorizontalAlignment="Center" HorizontalContentAlignment="Center" DockPanel.Dock="Top" VerticalContentAlignment="Center" Margin="0,0,10,0"/>
+            <Button x:Name="BtnCerrarSesion" Content="Cerrar Sesion" Height="55" Margin="0,390,0,20" VerticalAlignment="Bottom" Width="175" VerticalContentAlignment="Center" Padding="5" Click="BtnCerrarSesion_Click"/>
+        </DockPanel>
+
+    </Grid>
+</mah:MetroWindow>
